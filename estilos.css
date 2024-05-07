@@ -1,0 +1,76 @@
+body {
+    display:flex
+    padding: 0;
+    margin: 0;
+}
+
+button {
+    padding: 10px 20px;
+    border:none;
+    border-radius: 0px;
+    font-size: 20px;
+    transition: .3s linear
+   
+}
+
+.canvas {
+    position: relative; 
+}
+
+
+.container-btns {
+
+    position:absolute;
+    display: flex; /* Establece el contenedor como un flex container */
+    flex-direction: row; /* Establece la dirección de los elementos como fila */
+    position: absolute; /* Posicionamiento absoluto */
+    gap: 25px;
+    top: 600px; /* Distancia desde la parte inferior */
+    left: 600px; /* Distancia desde la izquierda */
+
+}
+
+
+.container-home {
+
+    position:absolute;
+    display: flex; /* Establece el contenedor como un flex container */
+    flex-direction: row; /* Establece la dirección de los elementos como fila */
+    position: absolute; /* Posicionamiento absoluto */
+    top: 600px; /* Distancia desde la parte inferior */
+    left: 100px; /* Distancia desde la izquierda */
+
+}
+
+.btn:hover{
+    background-color: yellowgreen;
+}
+
+.btn1:hover{
+    background-color: rgb(255, 173, 186);
+}
+
+.btn2:hover{
+    background-color: white;
+    color: black;
+}
+
+.btn2{
+    color: white;
+    padding: 5px 10px;
+    font-size: 10px;
+    background-color: black;
+    border-radius: 0px;
+    
+}
+
+.container-screenshot {
+
+    position:absolute;
+    display: flex; /* Establece el contenedor como un flex container */
+    flex-direction: row; /* Establece la dirección de los elementos como fila */
+    position: absolute; /* Posicionamiento absoluto */
+    top: 625px; /* Distancia desde la parte inferior */
+    left: 100px; /* Distancia desde la izquierda */
+
+}
